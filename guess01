@@ -1,0 +1,10 @@
+print("hello world")
+sNum = round(9)
+guessNum = int(input("please guess one number"))
+
+if guessNum == sNum:
+    print("Good! You are right!")
+else:
+    print("number is " + str(sNum))
+    print("Sorry, you are wrong!")
+    #guessNum = int(input("please guess again!"))
